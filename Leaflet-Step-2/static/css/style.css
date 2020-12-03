@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  padding: 15px 15px;
+  font-family: Helvetica;
+  font-size: 14px; 
+  font-weight: 700;
+  background-color: rgb(230, 230, 230);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.267);
+  line-height: 26px;
+  color: rgb(61, 61, 61);
+  
+}
+
+.legend k {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0 8px 0 0;
+  opacity: 0.9;
+}
+
+.legend span{
+  position: relative;
+}
+
+.mag2{
+  border-style: solid;
+  border-color: rgb(61, 61, 61);
+  background-color: #788ef5;
+}
+
+.mag3{
+  border-style: solid;
+  border-color: rgb(61, 61, 61);
+  background-color: #9dceef;
+}
+
+.mag4{
+  border-style: solid;
+  border-color: rgb(61, 61, 61);
+  background-color: #ffffe0;
+}
+
+.mag5{
+  border-style: solid;
+  border-color: rgb(61, 61, 61);
+  background-color: #f4777f;
+}
+
+.mag5up{
+  border-style: solid;
+  border-color: rgb(61, 61, 61);
+  background-color: #93003a;
+}
