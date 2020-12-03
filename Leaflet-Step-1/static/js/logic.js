@@ -7,6 +7,7 @@ d3.json(queryUrl, function (data) {
   quakeMap(data.features);
 });
 
+// Function to create Map
 function quakeMap(d) {
   // Loop through locations and markers elements, add popups
   EarthquakeMarkers = d.map((feature) =>
@@ -33,7 +34,7 @@ function quakeMap(d) {
     )
   );
 
-  // Add the earthquakes layer to a marker cluster group.
+  // Layer group creation for the earthquake data
   var earthquakes = L.layerGroup(EarthquakeMarkers);
 
   var mags = d.map((d) => magAdjust(+d.properties.mag));
